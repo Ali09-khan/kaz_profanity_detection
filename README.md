@@ -1,8 +1,8 @@
 # Kazakh Profanity Detection
 
-DSSC5113 bonus project · KBTU
-
 Given one Kazakh product review or comment, predict `0` for no Kazakh profanity or `1` for Kazakh profanity present. The output includes the model's estimated probability for label `1`.
+Full Name: Alikhan Rakhman
+ID: 25MD0197
 
 ## Data and labels
 
