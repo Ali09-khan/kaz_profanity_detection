@@ -1,0 +1,58 @@
+{
+  "seed": 42,
+  "C": 16.0,
+  "threshold": 0.25,
+  "split_counts": {
+    "train": {
+      "0": 1920,
+      "1": 538
+    },
+    "val": {
+      "0": 181,
+      "1": 82
+    },
+    "test": {
+      "0": 172,
+      "1": 94
+    }
+  },
+  "removed": {
+    "ambiguous": 24,
+    "source_text_differs": 7,
+    "empty_after_normalizing": 1,
+    "exact_duplicates": 6,
+    "near_duplicate_in_holdout": 36
+  },
+  "validation": {
+    "n": 263,
+    "precision": 0.9436619718309859,
+    "recall": 0.8170731707317073,
+    "f1": 0.8758169934640523,
+    "confusion_matrix": [
+      [
+        177,
+        4
+      ],
+      [
+        15,
+        67
+      ]
+    ]
+  },
+  "test": {
+    "n": 266,
+    "precision": 0.9753086419753086,
+    "recall": 0.8404255319148937,
+    "f1": 0.9028571428571428,
+    "confusion_matrix": [
+      [
+        170,
+        2
+      ],
+      [
+        15,
+        79
+      ]
+    ]
+  }
+}
